@@ -56,7 +56,7 @@
                      <font>
                         <Font name="Comic Sans MS" size="12.0" />
                      </font></TextField>
-                  <TextField fx:id="txtTelefono" layoutX="171.0" layoutY="185.0" prefHeight="25.0" prefWidth="216.0" promptText="ingresar nota">
+                  <TextField fx:id="txtNota" layoutX="171.0" layoutY="185.0" prefHeight="25.0" prefWidth="216.0" promptText="ingresar nota">
                      <font>
                         <Font name="Comic Sans MS" size="12.0" />
                      </font></TextField>
@@ -65,7 +65,7 @@
                         <Font name="Comic Sans MS" size="12.0" />
                      </font>
                   </Button>
-                  <ComboBox fx:id="cbGenero" layoutX="171.0" layoutY="145.0" prefHeight="25.0" prefWidth="216.0" promptText="Seleccione genero" />
+                  <ComboBox fx:id="cbGenero" layoutX="171.0" layoutY="145.0" onAction="#seleccionarGenero" prefHeight="25.0" prefWidth="216.0" promptText="Seleccione genero" />
                   <Button fx:id="btnPromedio" layoutX="319.0" layoutY="230.0" mnemonicParsing="false" onAction="#promedioEstudienteEvent" text="Promedio" />
                </children>
             </AnchorPane>
